@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="note">
+            <img id="noteImage" src="images/notes.png" alt="">
+            <p id="notesWord">Notes</p>
+        </div>
+        <div id="box">
+            <img id="CreateImage" src="images/edit.png">
+            <p id="createWord">Create Notes</p>
+        </div>
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="input-box">
+                <img class="deleteimg" src="images/delete.png"> -->
+            </p>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
